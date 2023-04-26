@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./image/icon.ico">
+    <script src="https://kit.fontawesome.com/579ca2ab87.js" crossorigin="anonymous"></script>
+    <title>Menús digitales personalizados para restaurantes | A la carta</title>
+    <meta name="description" content="Ofrecemos menús digitales personalizados para restaurantes que ayudan a mejorar la experiencia del cliente. Contáctanos para obtener más información.">
+    <meta name="keywords" content="menús digitales, restaurantes, personalizados, experiencia del cliente, menú en pdf">
+    <meta http-equiv="Content-Language" content="es">
+</head>
+<body>
+    <div class="header2">
+        <div class="img-container">
+            <img src="./image/logo.png" alt="A la carta">
+        </div>
+    </div>
+    <header>
+        <h1>Menús digitales personalizados para restaurantes:</h1>
+        <h3>¡Mejora la experiencia de tus clientes!</h2>
+    </header>
+    <div class="image-block"><img src="./image/menu-img.png" alt="Menú Inteligente"></div>
+    <div class="descripcion">
+        <p>
+            Somos una empresa especializada en la creación de menús digitales personalizados para restaurantes. Ayudamos a los negocios gastronómicos a mejorar la experiencia de sus clientes al ofrecerles un menú fácil de leer y navegar, con imágenes atractivas de sus platillos y opciones de contacto con servicios de delivery. Nuestros diseños son completamente personalizados y adaptados a la identidad visual de cada negocio.
+        </p>
+    </div>
+    <!--Grid + swipe UI-->
+    <div class="grid-section">
+        <button id="scroll-der" type="button"><i class="fa-solid fa-arrow-right"></i></button>
+        <button id="scroll-izq" type="button"><i class="fa-solid fa-arrow-left"></i></button>
+        <ul id="cards" class="cards">
+            <li class="card">
+                <div class="grid-item">
+                    <h2>Paquete Básico</h2><br>
+                    <h4>Secciones de menú</h4>
+                    <p>2 secciones de menú</p><br>
+                    <h4>Personalización y diseño</h4>
+                    <p>Logotipo y hasta 3 fotos</p><br>
+                    <span class="precio">$812</span>
+                </div>
+                <div class="card-link-wraper">
+                    <a href="https://wa.me/5216671606417?text=Me%20interesa%20el%20paquete%20básico" class="card-link" target="_blank">¡Contrata ahora!</a>
+                </div>
+            </li>
+            <li class="card">
+                <div class="grid-item">
+                    <h2>Paquete Intermedio</h2>
+                    <h4>Secciones de menú</h4>
+                    <p>4 secciones de menú</p>
+                    <h4>Personalización y diseño</h4>
+                    <p>Logotipo, hasta 5 fotos, tipografía y colores de la marca</p>
+                    <span class="precio">$1,276</span>
+                </div>
+                <div class="card-link-wraper">
+                    <a href="https://wa.me/5216671606417?text=Me%20interesa%20el%20paquete%20intermedio" class="card-link" target="_blank">¡Contrata ahora!</a>
+                </div>
+            </li>
+            <li class="card">
+                <div class="grid-item">
+                    <h2>Paquete Personalizado</h2>
+                    <h4>Secciones de menú</h4>
+                    <p>4 ó más secciones de menú con navegador</p>
+                    <h4>Personalización y diseño</h4>
+                    <p>Logotipo, hasta 10 fotos, botones de enlace a apps(Wapp, UberE, Rapi, Didi)tipografía y colores de la marca</p>
+                    <span class="precio">$1,740</span>
+                </div>
+                <div class="card-link-wraper">
+                    <a href="https://wa.me/5216671606417?text=Me%20interesa%20el%20paquete%20personalizado" class="card-link" target="_blank">¡Contrata ahora!</a>
+                </div>
+            </li>
+            <li class="card">
+                <div class="grid-item">
+                    <h2>Paquete Avanzado</h2>
+                    <h4>Secciones de menú</h4>
+                    <p>4 ó más secciones de menú</p>
+                    <h4>Personalización y diseño</h4>
+                    <p>Modal para mostrar imágenes, logotipo, hasta 15 fotos, botones de enlace a apps(Wapp, UberE, Rapi, Didi)tipografía y colores de la marca</p>
+                    <span class="precio">$2,320</span>
+                </div>
+                <div class="card-link-wraper">
+                    <a href="https://wa.me/5216671606417?text=Me%20interesa%20el%20paquete%20avanzado" class="card-link" target="_blank">¡Contrata ahora!</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="ejemplo">
+        <h3>Menu Ejemplo</h3>
+        <img
+        src="./image/menu_ejemplo.png"
+        id="menu-ejemplo"
+        alt="Menu la torcua"/>
+        <div id="my-modal" class="modal">
+            <span id="close" class="close"><i class="fa-solid fa-x no-back"></i></span>
+            <img class="modal-content" id="img01">
+        </div>
+    </div>
+    <footer>
+        <p>Enrique Nungaray Butchart 6671606417</p>
+    </footer>
+    <div class="theme-btn">
+        <a href="https://wa.me/5216671606417" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
