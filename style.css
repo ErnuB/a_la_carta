@@ -351,10 +351,15 @@ h4 {
 }
 
 footer {
-    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-evenly;
+    background-color: #ebebeb;
     border-top: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
+    padding: .5rem;
   }
 
 footer p {
@@ -390,4 +395,16 @@ footer p {
         grid-auto-columns: calc(45rem - 30px);
         grid-column-gap: 40px;
     }
+}
+
+footer a {
+    background: none;
+    text-decoration: none;
+    color: black;
+}
+
+footer i {
+    background: none;
+    font-size: 2rem;
+    color: #11BDFF;
 }
